@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import { QRCodeCanvas } from "qrcode.react";
+import { motion } from "framer-motion";
 
 function App() {
   const [text, setText] = useState("");
@@ -37,7 +38,6 @@ function App() {
       }}
     >
       <motion.div
-        className="min-h-screen bg-gray-900 p-6 flex flex-col items-center"
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.6 }}
