@@ -36,6 +36,13 @@ function App() {
           "url('https://img3.thuthuatphanmem.vn/uploads/2019/10/10/anh-background-dong-don-gian_032845592.gif')",
       }}
     >
+      <div className="absolute top-1 left-0">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/6c97/ed47/76b8c84d7f330ed6b4d524c5013d50f1?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=X52fezzW6ji~1DUtYxwV0rAUxakZxz~iYtSSWRSVqpCAJbvu--7Tol7ioWQfGg6R4uLbe5IqctXxlh4QranRu6OeNXxsCiEex8Ms5sMx0XV-v-~fUZOQmyA72ZML4IVaiMV56vMX08Pg5z2W5TysCsL9YlNVPgUi04xR1my2HTmrKedahqakoO0AyEv59BetfKm3TE95cXv3237u70DZP-L~oiV8tZmS5aG6olY8v88O5YXkZzaGD5mqCxAvqBaYrl9~vtJctR04mpA9JZh4kaNROp9EMv~BnNpOplKMlPohKuLMmZdaz6k6O4lR-7N6F9mVrBlwoq3M0SGpOpmBVw__"
+          className="w-56 h-auto"
+        />
+      </div>
+
       <div className="bg-white p-6 rounded-lg shadow-2xl w-full max-w-lg">
         <h1 className="text-4xl font-bold text-center mb-6">
           QR Code Generator
